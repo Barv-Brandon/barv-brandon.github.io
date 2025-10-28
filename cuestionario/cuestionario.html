@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario Brandon R</title>
+</head>
+<body>
+     <form action="https://ncoge.com/phps/formulario.php" method="post">
+
+<table border="0" align="top" width=" 100%">
+  <tr>
+    <td>
+    <fieldset style = width:90% > 
+  <legend>Datos personales</legend>
+  <label for="nombre">Nombre</label> 
+  <input type="text" name="nombre" id="nombre" size="50" maxlength="50" />
+  <br/>
+  <label for="apellido">Apellido</label> 
+  <input type="text" name="apellido" id="apellido" size="50" maxlength="50" />
+  <br/>
+  <label for="correo">Correo</label> 
+  <input type="text" name="corree" id="correo" size="50" maxlength="50" />
+  <br/>
+  <label for="hobbies">Hobbies</label> 
+  <textarea name="descripcion" id="hobbies" cols="40" rows="5"></textarea>
+ </fieldset>
+</td>
+
+
+  <!-- <input type="submit" value="enviar" /> -->
+  <!-- <input type="image" name="enviar" src="accept.png"  />
+  Sexo <br/> -->
+
+  <td>
+<fieldset style= width:90% >
+  <legend>Idiomas</legend>
+  <label for="nombre">Piuntua tu nivel de idiomas (1 el más bajo y 5 el más alto)</label><br/>
+  <label for="nombre">Inglés</label>
+  1<input type="radio" name="inglesValor" value="1" checked="checked" /> 
+  2<input type="radio" name="inglesValor" value="2" /> 
+  3<input type="radio" name="inglesValor" value="3" /> 
+  4<input type="radio" name="inglesValor" value="4" /> 
+  5<input type="radio" name="inglesValor" value="5" /> 
+<br>
+<label for="nombre">Francés</label>
+ 1<input type="radio" name="francesValor" value="1" checked="checked" /> 
+ 2<input type="radio" name="francesValor" value="2" /> 
+ 3<input type="radio" name="francesValor" value="3" /> 
+ 4<input type="radio" name="francesValor" value="4" /> 
+ 5<input type="radio" name="francesValor" value="5" /> 
+<br>
+<label for="nombre">Alemán</label>
+ 1<input type="radio" name="alemanValor" value="1" checked="checked" /> 
+ 2<input type="radio" name="alemanValor" value="2" /> 
+ 3<input type="radio" name="alemanValor" value="3" /> 
+ 4<input type="radio" name="alemanValor" value="4" /> 
+ 5<input type="radio" name="alemanValor" value="5" /> 
+<br>
+</fieldset>
+</td>
+<tr>
+  <td>
+
+  </td>
+<td>
+<fieldset style= width:90% >
+  <legend>Dominio de los siguientes programas:</legend>
+ <input name="writer" type="checkbox" value="writer"/> Writer
+ <input name="base" type="checkbox" value="base"/> Base
+ <input name="calc" type="checkbox" value="calc"/> Calc
+ <input name="impress" type="checkbox" value="impress"/> Impress
+</fieldset>
+</td>
+</tr>
+<!-- <label for="nombre">Nombre del producto</label> <br/>
+ <input type="text" id="nombre" name="nombre" value="" />
+ <br>
+ <label for="descripcion">Descripción del producto</label> <br/>
+ <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea> -->
+
+ 
+ <tr>
+  <td>
+
+  </td>
+<td>
+ <fieldset style= width:90% >
+  <legend>Trabajo con el siguiente sistema operativo:</legend>
+  <select id="so" name="so">
+  <option value="" selected="selected">- selecciona -</option>
+  <option value="windows">Windows</option>
+  <option value="mac">Mac</option>
+  <option value="linux">Linux</option>
+  <option value="otro">Otro</option>
+ </select>
+</fieldset>
+</td>
+</tr>
+<tr>
+  <td colspan="2" align="center">
+ <input type="reset" name="limpiar" value="Reiniciar" />
+ <input type ="image" name="" src="./images/salir.png" width="40px"/> 
+</td>
+<td>
+
+</td>
+</tr>
+</form>
+
+</table>
+</body>
+
+</html>
