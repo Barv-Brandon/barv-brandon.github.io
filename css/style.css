@@ -9,11 +9,10 @@
   color: green;
   outline: none;
   text-decoration: none;
+
   display: inline-block;
  }
 
  a:hover{
-   text-decoration:underline;
-
-
+   text-decoration: underline;
  }
