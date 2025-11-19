@@ -5,11 +5,10 @@
     background-position: center center;
     text-align: center;
  }
- a{
+ a {
   color: green;
   outline: none;
   text-decoration: none;
-
   display: inline-block;
  }
 
