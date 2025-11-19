@@ -5,3 +5,15 @@
     background-position: center center;
     text-align: center;
  }
+ a{
+  color: green;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+ }
+
+ a:hover{
+   text-decoration:underline;
+
+
+ }
