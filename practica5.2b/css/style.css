@@ -1,0 +1,89 @@
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+
+
+.cuadroPrincipal{
+    border: 2px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+    border-radius: 5%;
+    box-shadow: 10px 20px 15px rgb(188, 188, 188);
+    padding: 15px;
+}
+
+.informacion{
+    margin: 10px;
+    background-color: rgb(209, 209, 209);
+    height: 100px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.foto{
+    margin: 5px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+}
+
+.descripcion{
+    padding: 10px;
+}
+
+.estadisticas{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: auto;
+    align-content: start;
+
+}
+.stats{
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.botones{
+   
+    display: flex;
+    justify-content: center;
+
+}
+.stats p{
+     
+  text-align: center;
+
+}
+
+.b1{
+    color: white;
+     border-radius: 8%;
+     border-color:rgb(51, 183, 244);
+    margin: 5px;
+    background-color: rgb(51, 183, 244);
+    width:50%;
+    height: 40px;
+    padding-bottom: 10px;
+}
+.b2{
+    border-radius: 8%;
+    border-color: white;
+    margin: 5px;
+    width: 20%;
+    height: 40px;
+    padding-bottom: 10px;
+}
