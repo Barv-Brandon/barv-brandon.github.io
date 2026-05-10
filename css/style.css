@@ -1,12 +1,15 @@
  body {
-    background-image: url(../images/fondo-programacion1.jpg);
+    background-image: url(../images/fondo2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
+    background-size: contain;    /* Muestra la imagen completa */
+    background-position: center; /* La centra en la pantalla */
+    background-color: #111111;
  }
  a {
-  color: green;
+  color: rgb(0, 255, 60);
   outline: none;
   text-decoration: none;
   display: inline-block;
